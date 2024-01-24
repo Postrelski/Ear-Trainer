@@ -18,7 +18,7 @@ function ChoicesBTNS(props) {
 
   useEffect(() => {
     setClassesArray(Array(intervals.length).fill("interval_btns"));
-  }, [props.count]);
+  }, [props.count, props.fetchFromChild]);
 
   function answerChecker(event, index) {
     // finds the interval that was clicked and makes shallow copy of array
