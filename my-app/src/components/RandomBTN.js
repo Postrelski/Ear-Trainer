@@ -6,7 +6,7 @@ function RandomBTN(props) {
     <div>
       <p>Click here for new interval.</p>
       <button className="random_btn" onClick={props.randomizeHandler}>
-        Randomize
+        Next
       </button>
     </div>
   );
